@@ -1,0 +1,106 @@
+
+
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+/* Bütün sayfanın arkaplan rengi Instagram'dan alınmıştır. */
+
+nav.settings {
+  height: 54px;
+  background-color: white;
+} 
+/* Navbarın height'ı 54 px olmalı ve arkaplan rengi beyaz olmalı. */
+
+.middlearea {
+  max-height: 200px !important; 
+  /* Class'da belirtilen middlearea içinde maksimum yükseklik 200px oldu ve bu important ile yazmaldı.*/
+}
+
+div.card-header{
+  background-color: white;
+}
+div.card-footer {
+  background-color: white;
+}
+/* Card header ve card footer'lar beyaz renk oldu. */
+
+
+div.logo {
+  margin-left: 192px ;
+}
+/* navbar'ın başındaki logo class'ının içine 192px soldan margin verildi. */
+
+::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  
+  /* arkaplanına assets klasörü içinde bulunan arama simgesini eklendi */
+  background-repeat: no-repeat;
+  /* ve tekrar etmemesini sağlandı*/
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+#sticky-sidebar {
+  position: fixed;
+  bottom: 1;
+  right: 1;
+  width: 300px;
+}
+/* sticky-sidebar sayfayı aşağı kaydırdıkça sağ panelin de kaymasını sağlar.*/
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+Footer
+
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
